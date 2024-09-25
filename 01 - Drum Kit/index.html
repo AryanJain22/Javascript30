@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Kit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <img class="bg-img" src="./pictures/pexels-thibault-trillet-44912-167636.jpg">
+        <div class="keys">
+            <!-- <h1>ColdPlay Concert</h1> -->
+            <button data-key="65" type="button" class="key-btn key1">A</button>
+            <button data-key="83" type="button" class="key-btn key2">S</button>
+            <button data-key="68" type="button" class="key-btn key3">D</button>
+            <button data-key="70" type="button" class="key-btn key4">F</button>
+            <button data-key="71" type="button" class="key-btn key5">G</button>
+            <button data-key="72" type="button" class="key-btn key6">H</button>
+            <button data-key="74" type="button" class="key-btn key7">J</button>
+        </div>
+    </div>
+
+    <audio data-key="65" src="./sounds/01 - JavaScript Drum Kit_sounds_boom.wav"></audio>
+    <audio data-key="83" src="./sounds/01 - JavaScript Drum Kit_sounds_clap.wav"></audio>
+    <audio data-key="68" src="./sounds/01 - JavaScript Drum Kit_sounds_hihat.wav"></audio>
+    <audio data-key="70" src="./sounds/01 - JavaScript Drum Kit_sounds_kick.wav"></audio>
+    <audio data-key="71" src="./sounds/01 - JavaScript Drum Kit_sounds_ride.wav"></audio>
+    <audio data-key="72" src="./sounds/01 - JavaScript Drum Kit_sounds_snare.wav"></audio>
+    <audio data-key="74" src="./sounds/01 - JavaScript Drum Kit_sounds_tink.wav"></audio>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
