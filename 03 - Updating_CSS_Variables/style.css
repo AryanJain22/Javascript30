@@ -1,0 +1,50 @@
+/* To create a variable in CSS we can use -- */
+/* This is something Exciting I came around Today */
+
+:root{
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+    --image: url('./pictures')
+}
+
+body {
+    background: rgb(22, 46, 63);
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+    color: white;
+}
+
+h1 span{
+    color: var(--base);
+}
+
+.controls{
+    margin: 30px;
+}
+
+label{
+    color: white;
+    font-size: 30px;
+    margin:0 15px;
+}
+
+input:hover{
+    cursor: pointer;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+    width: 60%;
+    height: auto;
+    overflow: hidden;
+}
