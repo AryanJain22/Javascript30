@@ -9,6 +9,5 @@ function handlePress(e) {
     pressed.splice(-secretKey - 1, pressed.length - secretKey.length);
     if (pressed.join('').includes(secretKey)) {
         title.textContent = "You succeed";
-        console.log("You are on the top");
     }
 }
